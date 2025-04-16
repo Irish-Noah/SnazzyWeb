@@ -1,3 +1,9 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
 .backgroundWrapper {
      width: 100%;
      margin-top: .7rem;
@@ -7,15 +13,14 @@
 }
    
 .page {
-     margin: 0 auto;
-     width: 90%;
      max-width: 900px;
+     width: 100%;
+     margin: 0 auto; /* Ensures it's centered */
+     padding: 2rem 1rem; /* Added padding for better spacing */
      display: flex;
      flex-direction: column;
      align-items: center;
      text-align: center;
-     padding: 2rem;
-     border-radius: 1rem;
 }
    
 .description {
@@ -52,9 +57,8 @@
      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
    
-   /* Details */
+/* Details */
 .albumDetails {
-     flex: 1;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -75,6 +79,10 @@
 .favoriteSong {
      font-size: 1.1rem;
      color: var(--textColor);
+}
+
+body {
+     overflow-x: hidden;
 }
 
 @media (max-width: 768px) {
@@ -105,4 +113,4 @@
      .page {
        padding: 1rem;
      }
-   }
+}
