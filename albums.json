@@ -89,6 +89,370 @@
         "year": 2024,
         "cover": "./albumCovers/hardandsoft.jpg",
         "song": "LUNCH"
+    },
+    {
+        "title": "Basement Grooves",
+        "artist": "Saib",
+        "year": 2019,
+        "cover": "./albumCovers/grooves.jpg",
+        "song": "Sweet Love"
+    },
+    {
+        "title": "Late Registration",
+        "artist": "Kanye West",
+        "year": 2005,
+        "cover": "./albumCovers/registration.jpg",
+        "song": "Touch The Sky"
+    }, 
+    {
+        "title": "Cold Fact",
+        "artist": "Rodriguez",
+        "year": 1970,
+        "cover": "./albumCovers/coldfact.jpg",
+        "song": "Only Good For Conversation"
+    },
+    {
+        "title": "1999",
+        "artist": "Joey Bada$$",
+        "year": 2012,
+        "cover": "./albumCovers/coldfact.jpg",
+        "song": "Righteous Minds"
+    },
+    {
+        "title": "For Ever",
+        "artist": "Jungle",
+        "year": 2018,
+        "cover": "./albumCovers/forever.jpg",
+        "song": "Heavy, California"
+    },
+    {
+        "title": "good kid, m.A.A.d city",
+        "artist": "Kendrick Lamar",
+        "year": 2012,
+        "cover": "./albumCovers/goodkid.jpg",
+        "song": "Bitch, Don't Kill My Vibe / Swimming Pools (Drank)"
+    },
+    {
+        "title": "DAMN.",
+        "artist": "Kendrick Lamar",
+        "year": 2017,
+        "cover": "./albumCovers/damn.jpg",
+        "song": "XXX"
+    },
+    {
+        "title": "Balloonerism",
+        "artist": "Mac Miller",
+        "year": 2025,
+        "cover": "./albumCovers/balloon.jpg",
+        "song": "Stoned"
+    },
+    {
+        "title": "Hollywood's Bleeding",
+        "artist": "Post Malone",
+        "year": 2019,
+        "cover": "./albumCovers/hollywood.jpg",
+        "song": "On The Road"
+    },
+    {
+        "title": "Harry Styles",
+        "artist": "Harry Styles",
+        "year": 2017,
+        "cover": "./albumCovers/harrystyles.jpg",
+        "song": "Kiwi"
+    },
+    {
+        "title": "K.I.D.S.",
+        "artist": "Mac Miller",
+        "year": 2010,
+        "cover": "./albumCovers/kids.jpg",
+        "song": "Face In The Crowd"
+    },
+    {
+        "title": "Pure Heroine",
+        "artist": "Lorde",
+        "year": 2013,
+        "cover": "./albumCovers/pure.jpg",
+        "song": "Tennis Courts"
+    },
+    {
+        "title": "Kauai",
+        "artist": "Childish Gambino",
+        "year": 2014,
+        "cover": "./albumCovers/kauai.jpg",
+        "song": "Retro (Rough)"
+    },
+    {
+        "title": "Off The Wall",
+        "artist": "Michael Jackson",
+        "year": 1970,
+        "cover": "./albumCovers/offthewall.jpg",
+        "song": "Rock with You"
+    },
+    {
+        "title": "Thriller",
+        "artist": "Michael Jackson",
+        "year": 1982,
+        "cover": "./albumCovers/thriller.jpg",
+        "song": "Billie Jean"
+    },
+    {
+        "title": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "artist": "Billie Eilish",
+        "year": 2019,
+        "cover": "./albumCovers/fallasleep.jpg",
+        "song": "bad guy"
+    },
+    {
+        "title": "Drunk",
+        "artist": "Thundercat",
+        "year": 2017,
+        "cover": "./albumCovers/drunk.jpg",
+        "song": "Them Changes"
+    },
+    {
+        "title": "Watching Movies with the Sound Off",
+        "artist": "Mac Miller",
+        "year": 2013,
+        "cover": "./albumCovers/watchingmovies.jpg",
+        "song": "Objects in the Mirror"
+    },
+    {
+        "title": "21",
+        "artist": "Adele",
+        "year": 2011,
+        "cover": "./albumCovers/21.jpg",
+        "song": "Rumour Has It"
+    },
+    {
+        "title": "Unorthodox Jukebox",
+        "artist": "Bruno Mars",
+        "year": 2012,
+        "cover": "./albumCovers/jukebox.jpg",
+        "song": "Locked out of Heaven"
+    },
+    {
+        "title": "I Put A Spell On You",
+        "artist": "Nina Simone",
+        "year": 1965,
+        "cover": "./albumCovers/aspell.jpg",
+        "song": " Feeling Good"
+    },
+    {
+        "title": "open this wall",
+        "artist": "Berlioz",
+        "year": 2024,
+        "cover": "./albumCovers/thiswall.jpg",
+        "song": "joycelyn's dance"
+    },
+    {
+        "title": "Harry's House",
+        "artist": "Harry Styles",
+        "year": 2022,
+        "cover": "./albumCovers/harryshouse.jpg",
+        "song": "Late Night Talking"
+    },
+    {
+        "title": "Yeezus",
+        "artist": "Kanye West",
+        "year": 2013,
+        "cover": "./albumCovers/yeezus.jpg",
+        "song": "Bound 2"
+    },
+    {
+        "title": "Fine Line",
+        "artist": "Harry Styles",
+        "year": 2019,
+        "cover": "./albumCovers/fineline.jpg",
+        "song": "Adore You"
+    },
+    {
+        "title": "Lady Lady",
+        "artist": "Masego",
+        "year": 2018,
+        "cover": "./albumCovers/ladylady.jpg",
+        "song": "Tadow"
+    },
+    {
+        "title": "More Life",
+        "artist": "Drake",
+        "year": 2017,
+        "cover": "./albumCovers/morelife.jpg",
+        "song": "Lose You"
+    },
+    {
+        "title": "TESTING",
+        "artist": "A$AP Rocky",
+        "year": 2018,
+        "cover": "./albumCovers/testing.jpg",
+        "song": "Praise The Lord"
+    },
+    {
+        "title": "Sweetener",
+        "artist": "Ariana Grande",
+        "year": 2018,
+        "cover": "./albumCovers/sweetener.jpg",
+        "song": "the light is coming"
+    },
+    {
+        "title": "Queen",
+        "artist": "Nicki Minaj",
+        "year": 2018,
+        "cover": "./albumCovers/queen.jpg",
+        "song": "Chun-Li"
+    },
+    {
+        "title": "DeBÍ TiRAR MáS FOToS",
+        "artist": "Bad Bunny",
+        "year": 2025,
+        "cover": "./albumCovers/badbunny1.jpg",
+        "song": "DtMF"
+    }, 
+    {
+        "title": "Nectar",
+        "artist": "Joji",
+        "year": 2020,
+        "cover": "./albumCovers/nectar.jpg",
+        "song": "Gimmie Love"
+    },
+    {
+        "title": "Pink Friday",
+        "artist": "Nicki Minaj",
+        "year": 2010,
+        "cover": "./albumCovers/pinkfriday.jpg",
+        "song": "Did It On'em"
+    },
+    {
+        "title": "Bando Stone and The New World",
+        "artist": "Childish Gambino",
+        "year": 2024,
+        "cover": "./albumCovers/bandostone.jpg",
+        "song": "Yoshinoya"
+    },
+    {
+        "title": "The Life of Pablo",
+        "artist": "Kanye West",
+        "year": 2016,
+        "cover": "./albumCovers/pablo.jpg",
+        "song": "Father Stretch My Hands Pt. 1"
+    },
+    {
+        "title": "Bobby Tarantino",
+        "artist": "Logic",
+        "year": 2016,
+        "cover": "./albumCovers/bobby.jpg",
+        "song": "Flexicution"
+    },
+    {
+        "title": "Take Care",
+        "artist": "Drake",
+        "year": 2011,
+        "cover": "./albumCovers/takecare.jpg",
+        "song": "The Motto"
+    },
+    {
+        "title": "Alligator Bites Never Heal",
+        "artist": "Doechii",
+        "year": 2024,
+        "cover": "./albumCovers/alligator.jpg",
+        "song": "DENIAL IS A RIVER"
+    },
+    {
+        "title": "Lemonade",
+        "artist": "Beyonce",
+        "year": 2016,
+        "cover": "./albumCovers/lemonade.jpg",
+        "song": "Daddy Lessons"
+    },
+    {
+        "title": "Songs About Jane",
+        "artist": "Maroon 5",
+        "year": 2002,
+        "cover": "./albumCovers/aboutjane.jpg",
+        "song": "She Will Be Loved"
+    },
+    {
+        "title": "Signed Sealed And Delivered",
+        "artist": "Stevie Wonder",
+        "year": 1970,
+        "cover": "./albumCovers/signedsealed.jpg",
+        "song": "We Can Work It Out"
+    },
+    {
+        "title": "V",
+        "artist": "Maroon 5",
+        "year": 2014,
+        "cover": "./albumCovers/v.jpg",
+        "song": "This Summer"
+    },
+    {
+        "title": "Doggystyle",
+        "artist": "Snoop Dogg",
+        "year": 1993,
+        "cover": "./albumCovers/doggy.jpg",
+        "song": "Who Am I (What's My Name)?"
+    },
+    {
+        "title": "X&Y",
+        "artist": "Coldplay",
+        "year": 2005,
+        "cover": "./albumCovers/x.jpg",
+        "song": "Fix You"
+    },
+    {
+        "title": "Studying Abroad: Extended Stay",
+        "artist": "Masego",
+        "year": 2020,
+        "cover": "./albumCovers/studyabroad.jpg",
+        "song": "Mystery Lady"
+    },
+    {
+        "title": "Beauty Behind The Madness",
+        "artist": "The Weeknd",
+        "year": 2015,
+        "cover": "./albumCovers/beauty.jpg",
+        "song": "Losers"
+    },
+    {
+        "title": "Hot Pink",
+        "artist": "Doja Cat",
+        "year": 2019,
+        "cover": "./albumCovers/hotpink.jpg",
+        "song": "Say So"
+    },
+    {
+        "title": "Get Rich Or Tryin'",
+        "artist": "50 Cent",
+        "year": 2003,
+        "cover": "./albumCovers/getrich.jpg",
+        "song": "P.I.M.P."
+    },
+    {
+        "title": "MM..FOOD",
+        "artist": "MF DOOM",
+        "year": 2004,
+        "cover": "./albumCovers/food.jpg",
+        "song": "One Beer"
+    },
+    {
+        "title": "Discovery",
+        "artist": "Electric Light Orchestra",
+        "year": 1979,
+        "cover": "./albumCovers/discovery.jpg",
+        "song": "Last Train to London"
+    },
+    {
+        "title": "Straight Outta Compton",
+        "artist": "N.W.A.",
+        "year": 1988,
+        "cover": "./albumCovers/compton.jpg",
+        "song": "Straight Outta Compton"
+    },
+    {
+        "title": "Alles nix konkretes",
+        "artist": "AnnenMayKantereit",
+        "year": 2016,
+        "cover": "./albumCovers/alles.jpg",
+        "song": "Das Krokodil"
     }
 
    
