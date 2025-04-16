@@ -4,8 +4,8 @@ import styles from './NavBar.module.css';
 function NavBar() {
   return (
     <nav className={styles.navbar}>
-      <Link to="/" className={styles.link}>Home</Link>
-      <Link to="/resume" className={styles.link}>Resume</Link>
+      <Link to="/SnazzyWeb/" className={styles.link}>Home</Link>
+      <Link to="/SnazzyWeb/resume" className={styles.link}>Resume</Link>
     </nav>
   );
 }
