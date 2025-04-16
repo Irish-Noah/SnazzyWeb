@@ -6,6 +6,7 @@ function NavBar() {
     <nav className={styles.navbar}>
       <Link to="/SnazzyWeb/" className={styles.link}>Home</Link>
       <Link to="/SnazzyWeb/resume" className={styles.link}>Resume</Link>
+      <Link to="/SnazzyWeb/albums" className={styles.link}>Album Tracker 2025</Link>
     </nav>
   );
 }

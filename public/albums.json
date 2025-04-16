@@ -1,0 +1,96 @@
+[
+    {
+      "title": "GNX",
+      "artist": "Kendrick Lamar",
+      "year": 2024,
+      "cover": "./albumCovers/gnx.jpg",
+      "song": "gnx"
+    },
+    {
+        "title": "JACKBOYS",
+        "artist": "Travis Scott",
+        "year": 2019,
+        "cover": "./albumCovers/jackboys.jpg",
+        "song": "HIGHEST IN THE ROOM"
+    },
+    {
+        "title": "Rodeo",
+        "artist": "Travis Scott",
+        "year": 2015,
+        "cover": "./albumCovers/rodeo.jpg",
+        "song": "90210"
+    },
+    {
+        "title": "CHROMAKOPIA",
+        "artist": "Tyler, The Creator",
+        "year": 2024,
+        "cover": "./albumCovers/chromakopia.jpg",
+        "song": "Rah Tah Tah"
+    },
+    {
+        "title": "HUMAN AFTER ALL",
+        "artist": "Daft Punk",
+        "year": 2005,
+        "cover": "./albumCovers/humanafterall.jpg",
+        "song": "Human After All"
+    },
+    {
+        "title": "Funk Wave Bounces Vol.1",
+        "artist": "Calvin Harris",
+        "year": 2017,
+        "cover": "./albumCovers/funkwave.jpg",
+        "song": "Slide"
+    },
+    {
+        "title": "ye",
+        "artist": "Kanye West",
+        "year": 2018,
+        "cover": "./albumCovers/ye.jpg",
+        "song": "Ghost Town"
+    },
+    {
+        "title": "The Slow Rush",
+        "artist": "Tame Impala",
+        "year": 2020,
+        "cover": "./albumCovers/slowrush.jpg",
+        "song": "Breathe Deeper"
+    },
+    {
+        "title": "What's Going On",
+        "artist": "Marvin Gaye",
+        "year": 1971,
+        "cover": "./albumCovers/goingon.jpg",
+        "song": "What's Going On"
+    },
+    {
+        "title": "In Rainbows",
+        "artist": "Radiohead",
+        "year": 2007,
+        "cover": "./albumCovers/rainbows.jpg",
+        "song": "Jigsaw Falling Into Place"
+    },
+    {
+        "title": "Nothing Was The Same",
+        "artist": "Drake",
+        "year": 2013,
+        "cover": "./albumCovers/thesame.jpg",
+        "song": "Come Thru"
+    },
+    {
+        "title": "Let's Get It On",
+        "artist": "Marvin Gaye",
+        "year": 1973,
+        "cover": "./albumCovers/iton.jpg",
+        "song": "Let's Get It On"
+    },
+    {
+        "title": "HIT ME HARD AND SOFT",
+        "artist": "Billie Eilish",
+        "year": 2024,
+        "cover": "./albumCovers/hardandsoft.jpg",
+        "song": "LUNCH"
+    }
+
+   
+  ]
+  
