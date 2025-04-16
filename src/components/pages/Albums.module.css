@@ -1,83 +1,77 @@
+.backgroundWrapper {
+     width: 100%;
+     margin-top: 1rem;
+     padding: 4rem 0;
+     transition: background-color 0.5s ease;
+     border-radius: 7px;
+}
+   
 .page {
+     margin: 0 auto;
+     width: 90%;
+     max-width: 900px;
      display: flex;
      flex-direction: column;
      align-items: center;
-     padding: 2rem;
      text-align: center;
+     padding: 2rem;
+     border-radius: 1rem;
 }
-
+   
 .description {
-     max-width: 600px;
-     line-height: 1.6;
-     margin-bottom: 2rem;
-     font-size: 1rem;
-     color: #333;
+     font-size: 1.2rem;
+     max-width: 700px;
+     margin-bottom: 12rem;
+     color: var(--textColor);
 }
-
+   
+   /* Album Layout */
 .albumList {
      list-style: none;
      padding: 0;
-     margin: 0 auto;
+     margin: 0;
+     width: 100%;
+}
+   
+.albumItem {
      display: flex;
      flex-direction: column;
      align-items: center;
-     width: 100%;
-     max-width: 800px;
+     margin-bottom: 30rem; /* larger spacing */
+     gap: 2rem;
+     text-align: center;
 }
-
-.albumItem {
-     display: flex;
-     align-items: center;
-     margin-bottom: 2rem;
-     gap: 1rem;
-     width: 100%;
-     max-width: 700px;
-}
-
-/* Staggered layout */
-.albumItem:nth-child(odd) {
-     flex-direction: row;
-}
-
-.albumItem:nth-child(even) {
-     flex-direction: row-reverse;
-}
-
+   
 .albumCover {
-     width: 150px;
-     height: 150px;
+     width: 220px;
+     height: 220px;
+     border-radius: 12px;
      object-fit: cover;
-     border-radius: 8px;
-     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-     flex-shrink: 0;
+     margin-bottom: 1.5rem;
+     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
-
+   
+   /* Details */
 .albumDetails {
-     max-width: 400px;
-     text-align: left;
+     flex: 1;
      display: flex;
      flex-direction: column;
      justify-content: center;
 }
-
+   
 .albumTextBlock {
      display: flex;
      flex-direction: column;
-     gap: 0.4rem;
-}
-
-.albumTitle {
-     font-weight: 600;
-     font-size: 1.1rem;
-}
-
-.favoriteSong {
-     margin: 0;
-     color: #666;
-     font-size: 0.95rem;
-     text-align: left;
+     gap: 0.8rem;
 }
    
-.rightAligned {
-     text-align: right;
+.albumTitle {
+     font-weight: 700;
+     font-size: 1.4rem;
+     color: var(--textColor);
+}
+   
+.favoriteSong {
+     font-size: 1.1rem;
+     color: var(--textColor);
 }

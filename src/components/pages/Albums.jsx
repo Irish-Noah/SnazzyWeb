@@ -1,24 +1,68 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import ColorThief from 'colorthief';
 import styles from './Albums.module.css';
+import albums from '/public/albums.json'
+
+function isDark(rgbArray) {
+  // Luminance formula
+  const [r, g, b] = rgbArray;
+  const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
+  return luminance < 150;
+}
 
 function Albums() {
-  const [albums, setAlbums] = useState([]);
+  const [bgColor, setBgColor] = useState('#ffffff');
+  const imageRefs = useRef([]);
 
   useEffect(() => {
-    fetch('albums.json')
-      .then(res => res.json())
-      .then(data => setAlbums(data));
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            const colorThief = new ColorThief();
+
+            if (img.complete) {
+              const color = colorThief.getColor(img);
+              const isBgDark = isDark(color);
+              document.documentElement.style.setProperty('--textColor', isBgDark ? '#f1f1f1' : '#111');
+              setBgColor(`rgb(${color.join(',')})`);
+            } else {
+              img.addEventListener('load', () => {
+                const color = colorThief.getColor(img);
+                setBgColor(`rgb(${color.join(',')})`);
+              });
+            }
+          }
+        });
+      },
+      { threshold: 0.6 }
+    );
+
+    imageRefs.current.forEach((img) => {
+      if (img) observer.observe(img);
+    });
+
+    return () => {
+      imageRefs.current.forEach((img) => {
+        if (img) observer.unobserve(img);
+      });
+    };
   }, []);
 
-  
   return (
-    <div className={styles.page}>
-      <h1>Albums I’ve Listened to in 2025</h1>
-      <p className={styles.description}>I used to be in a music rut. Listening to the same music on repeat on Spotify. I finally got tired of it sssssssssssssssssssssssssssssssssssssssssssssssss</p>
-      <ul>
+    <div className={styles.backgroundWrapper} style={{ backgroundColor: bgColor }}>
+      <div className={styles.page}>
+      <p className={styles.description}>
+        Albums I’ve listened to this year and my thoughts on them.
+      </p>
+
+      <ul className={styles.albumList}>
         {albums.map((album, i) => (
           <li key={i} className={styles.albumItem}>
             <img
+              ref={(el) => (imageRefs.current[i] = el)}
+              crossOrigin="anonymous"
               src={album.cover}
               alt={`${album.title} cover`}
               className={styles.albumCover}
@@ -28,18 +72,15 @@ function Albums() {
                 <div className={styles.albumTitle}>
                   <strong>{album.title}</strong> by {album.artist} ({album.year})
                 </div>
-                <p
-                    className={`${styles.favoriteSong} ${
-                      i % 2 === 1 ? styles.rightAligned : ''
-                    }`}
-                  >
-                    Favorite song: {album.song}
+                <p className={styles.favoriteSong}>
+                  Favorite song: {album.song}
                 </p>
               </div>
             </div>
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
 }
