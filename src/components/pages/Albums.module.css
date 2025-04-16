@@ -1,6 +1,6 @@
 .backgroundWrapper {
      width: 100%;
-     margin-top: 1rem;
+     margin-top: .7rem;
      padding: 4rem 0;
      transition: background-color 0.5s ease;
      border-radius: 7px;
@@ -20,9 +20,10 @@
    
 .description {
      font-size: 1.2rem;
-     max-width: 700px;
-     margin-bottom: 12rem;
+     max-width: 750px;
+     margin-bottom: 10rem;
      color: var(--textColor);
+     line-height: 1.6;
 }
    
    /* Album Layout */
@@ -75,3 +76,33 @@
      font-size: 1.1rem;
      color: var(--textColor);
 }
+
+@media (max-width: 768px) {
+     .albumCover {
+       width: 160px;
+       height: 160px;
+     }
+   
+     .albumTitle {
+       font-size: 1.2rem;
+     }
+   
+     .favoriteSong,
+     .review {
+       font-size: 0.95rem;
+     }
+   
+     .description {
+       font-size: 1rem;
+       line-height: 1.5;
+       padding: 0 1rem;
+     }
+   
+     .albumItem {
+       margin-bottom: 6rem;
+     }
+   
+     .page {
+       padding: 1rem;
+     }
+   }

@@ -54,7 +54,9 @@ function Albums() {
     <div className={styles.backgroundWrapper} style={{ backgroundColor: bgColor }}>
       <div className={styles.page}>
       <p className={styles.description}>
-        Albums I’ve listened to this year and my thoughts on them.
+        Last year I was in a massive music funk. Spotify seemed to be shuffling the same songs I've been listening to for years and I wanted to expand my horizons. 
+        I decided that every day in 2025 that I would listen to a new album! These are the albums I have listened to so far. 
+        Spotify might shuffle the same 15 songs, but at least they're new songs to me :)
       </p>
 
       <ul className={styles.albumList}>
