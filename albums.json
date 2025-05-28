@@ -453,7 +453,71 @@
         "year": 2016,
         "cover": "./albumCovers/alles.jpg",
         "song": "Das Krokodil"
+    },
+    {
+        "title": "The Fame Monster",
+        "artist": "Lady Gaga",
+        "year": 2009,
+        "cover": "./albumCovers/famemonster.jpg",
+        "song": "Telephone"
+    },
+    {
+        "title": "Alles nix konkretes",
+        "artist": "AnnenMayKantereit",
+        "year": 2016,
+        "cover": "./albumCovers/alles.jpg",
+        "song": "Das Krokodil"
+    },
+    {
+        "title": "thank u, next",
+        "artist": "Ariana Grande",
+        "year": 2019,
+        "cover": "./albumCovers/thankyou.jpg",
+        "song": "break up with your girlfriend, i'm bored"
+    }, 
+    {
+        "title": "Acid Rap",
+        "artist": "Chance the Rapper",
+        "year": 2013,
+        "cover": "./albumCovers/acidrap.jpg",
+        "song": "Favorite Song"
+    },
+    {
+        "title": "Nick Poulin",
+        "artist": "Nick Poulin",
+        "year": 2024,
+        "cover": "./albumCovers/nick.jpg",
+        "song": "What Would I Find"
+    },
+    {
+        "title": "Let's Start Here.",
+        "artist": "Lil Yachty",
+        "year": 2023,
+        "cover": "./albumCovers/start.jpg",
+        "song": "sAy sOMETHINg"
+    },
+    {
+        "title": "Starboy",
+        "artist": "The Weeknd",
+        "year": 2016,
+        "cover": "./albumCovers/starboy.jpg",
+        "song": "Party Monster"
+    },
+    {
+        "title": "Blurryface",
+        "artist": "Twenty One Pilots",
+        "year": 2015,
+        "cover": "./albumCovers/blurry.jpg",
+        "song": "Stressed Out"
+    },
+    {
+        "title": "Jazz",
+        "artist": "Queen",
+        "year": 1978,
+        "cover": "./albumCovers/jazz.jpg",
+        "song": "Don't Stop Me Now"
     }
+    
 
    
   ]
