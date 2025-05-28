@@ -516,7 +516,65 @@
         "year": 1978,
         "cover": "./albumCovers/jazz.jpg",
         "song": "Don't Stop Me Now"
+    },
+    {
+        "title": "Rumours",
+        "artist": "Fleetwood Mac",
+        "year": 1977,
+        "cover": "./albumCovers/rumours.jpg",
+        "song": "Don't Stop"
+    },
+    {
+        "title": "Diaspora",
+        "artist": "GoldLink",
+        "year": 2019,
+        "cover": "./albumCovers/diaspora.jpg",
+        "song": "Spanish Song"
+    },
+    {
+        "title": "Pretty Girls Like Trap Music",
+        "artist": "2 Chainz",
+        "year": 2017,
+        "cover": "./albumCovers/prettygirls.jpg",
+        "song": "Bailan"
+    },
+    {
+        "title": "Breathless",
+        "artist": "Kenny G",
+        "year": 1992,
+        "cover": "./albumCovers/kennyg.jpg",
+        "song": "Sentimental"
+    },
+    {
+        "title": "Life Is Beautiful",
+        "artist": "Larry June",
+        "year": 2025,
+        "cover": "./albumCovers/outplayed.jpg",
+        "song": "Epiphany"
+    },
+    {
+        "title": "In A Tidal Wave of Mystery",
+        "artist": "Capital Cities",
+        "year": 2013,
+        "cover": "./albumCovers/tidal.jpg",
+        "song": "Safe and Sound"
+    }, 
+    {
+        "title": "Bad Blood",
+        "artist": "Bastille",
+        "year": 2013,
+        "cover": "./albumCovers/badblood.jpg",
+        "song": "Bad Blood"
+    },
+    {
+        "title": "In A Tidal Wave of Mystery",
+        "artist": "Capital Cities",
+        "year": 2013,
+        "cover": "./albumCovers/tidal.jpg",
+        "song": "Safe and Sound"
     }
+    
+
     
 
    
