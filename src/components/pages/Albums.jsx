@@ -12,6 +12,7 @@ function isDark(rgbArray) {
 
 function Albums() {
   const [bgColor, setBgColor] = useState('#ffffff');
+  const [activeAlbumIndex, setActiveAlbumIndex] = useState(null);
   const imageRefs = useRef([]);
 
   useEffect(() => {
@@ -20,6 +21,8 @@ function Albums() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             const img = entry.target;
+            const index = imageRefs.current.indexOf(img); 
+            setActiveAlbumIndex(index); 
             const colorThief = new ColorThief();
 
             if (img.complete) {
@@ -67,7 +70,7 @@ function Albums() {
               crossOrigin="anonymous"
               src={album.cover}
               alt={`${album.title} cover`}
-              className={styles.albumCover}
+              className={`${styles.albumCover} ${i === activeAlbumIndex ? styles.activeAlbum : ''}`}
             />
             <div className={styles.albumDetails}>
               <div className={styles.albumTextBlock}>

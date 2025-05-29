@@ -115,7 +115,7 @@
         "title": "1999",
         "artist": "Joey Bada$$",
         "year": 2012,
-        "cover": "./albumCovers/coldfact.jpg",
+        "cover": "./albumCovers/1999.jpg",
         "song": "Righteous Minds"
     },
     {
@@ -549,7 +549,7 @@
         "title": "Life Is Beautiful",
         "artist": "Larry June",
         "year": 2025,
-        "cover": "./albumCovers/outplayed.jpg",
+        "cover": "./albumCovers/outplayed.png",
         "song": "Epiphany"
     },
     {
@@ -577,7 +577,7 @@
         "title": "MAYHEM",
         "artist": "Lady Gaga",
         "year": 2025,
-        "cover": "./albumCovers/outplayed.jpg",
+        "cover": "./albumCovers/outplayed.png",
         "song": "Abracadabra"
     },
     {
@@ -647,7 +647,7 @@
         "title": "Irish Heartbeat",
         "artist": "Van Morrison",
         "year": 1988,
-        "cover": "./albumCovers/irishhearbeat.jpg",
+        "cover": "./albumCovers/irishheartbeat.jpg",
         "song": "Celtic Ray"
     },
     {
@@ -668,7 +668,7 @@
         "title": "Doo-Wops & Hooligans",
         "artist": "Bruno Mars",
         "year": 2013,
-        "cover": "./albumCovers/dowops.jpg",
+        "cover": "./albumCovers/dowop.jpg",
         "song": "Just the Way You Are"
     },
     {
