@@ -567,11 +567,116 @@
         "song": "Bad Blood"
     },
     {
-        "title": "In A Tidal Wave of Mystery",
-        "artist": "Capital Cities",
+        "title": "BALLADS 1",
+        "artist": "Joji",
+        "year": 2018,
+        "cover": "./albumCovers/ballads1.jpg",
+        "song": "SLOW DANCING IN THE DARK"
+    },
+    {
+        "title": "MAYHEM",
+        "artist": "Lady Gaga",
+        "year": 2025,
+        "cover": "./albumCovers/outplayed.jpg",
+        "song": "Abracadabra"
+    },
+    {
+        "title": "1989",
+        "artist": "Taylor Swift",
+        "year": 2014,
+        "cover": "./albumCovers/1989.jpg",
+        "song": "Style"
+    },
+    {
+        "title": "Know-It-All",
+        "artist": "Alessia Cara",
+        "year": 2016,
+        "cover": "./albumCovers/knowit.jpg",
+        "song": "Here"
+    },
+    {
+        "title": "Handwritten",
+        "artist": "Shawn Mendes",
+        "year": 2015,
+        "cover": "./albumCovers/handwritten.jpg",
+        "song": "I Know What You Did Last Summer"
+    },
+    {
+        "title": "2001",
+        "artist": "Dr. Dre",
+        "year": 1999,
+        "cover": "./albumCovers/2001.jpg",
+        "song": "The Next Episode"
+    },
+    {
+        "title": "Watch The Throne",
+        "artist": "JAY-Z",
+        "year": 2011,
+        "cover": "./albumCovers/throne.jpg",
+        "song": "You know what song is my favorite off this one lmfao"
+    },
+    {
+        "title": "Views",
+        "artist": "Drake",
+        "year": 2016,
+        "cover": "./albumCovers/views.jpg",
+        "song": "Hotline Bling"
+    },
+    {
+        "title": "ONEPOINTFIVE",
+        "artist": "Amine",
+        "year": 2018,
+        "cover": "./albumCovers/1point4.jpg",
+        "song": "REEL IT IN"
+    },
+    {
+        "title": "True",
+        "artist": "Avicii",
         "year": 2013,
-        "cover": "./albumCovers/tidal.jpg",
-        "song": "Safe and Sound"
+        "cover": "./albumCovers/true.jpg",
+        "song": "Wake Me Up"
+    },
+    {
+        "title": "Lupe Fiasco's The Cool",
+        "artist": "Lupe Fiasco",
+        "year": 2007,
+        "cover": "./albumCovers/thecool.jpg",
+        "song": "Superstar"
+    },
+    {
+        "title": "Irish Heartbeat",
+        "artist": "Van Morrison",
+        "year": 1988,
+        "cover": "./albumCovers/irishhearbeat.jpg",
+        "song": "Celtic Ray"
+    },
+    {
+        "title": "18 Months",
+        "artist": "Calvin Harris",
+        "year": 2012,
+        "cover": "./albumCovers/18.jpg",
+        "song": "I Need Your Love"
+    }, 
+    {
+        "title": "Live From Space",
+        "artist": "Mac Miller",
+        "year": 2013,
+        "cover": "./albumCovers/fromspace.jpg",
+        "song": "Objects in the Mirror - Live"
+    },
+    {
+        "title": "Doo-Wops & Hooligans",
+        "artist": "Bruno Mars",
+        "year": 2013,
+        "cover": "./albumCovers/dowops.jpg",
+        "song": "Just the Way You Are"
+    },
+    {
+        "title": "Bad Blood",
+        "artist": "Bastille",
+        "year": 2013,
+        "cover": "./albumCovers/badblood.jpg",
+        "song": "Bad Blood"
     }
     
 
