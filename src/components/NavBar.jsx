@@ -7,7 +7,7 @@ function NavBar() {
       <Link to="/SnazzyWeb/" className={styles.link}>Home</Link>
       <Link to="/SnazzyWeb/resume" className={styles.link}>Resume</Link>
       <Link to="/SnazzyWeb/albums" className={styles.link}>Album Tracker 2025</Link>
-      <Link to="/SnazzWeb/vehicle-maintenance" className={styles.link}>BMW Maintenance History</Link>
+      <Link to="/SnazzyWeb/vehicle-maintenance" className={styles.link}>Vehicle Health Tracker</Link>
     </nav>
   );
 }

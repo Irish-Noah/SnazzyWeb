@@ -1,0 +1,35 @@
+{
+  "current": [
+    {
+      "id": 1,
+      "title": "Oil Change",
+      "date": "2025-09-20",
+      "mileage": "62,000",
+      "notes": "Use 0W-30 BMW LL-01",
+      "image": "./albumCovers/gnx.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Brake Fluid Flush",
+      "date": "2025-12-01",
+      "mileage": "65,000",
+      "notes": "Recommended every 2 years"
+    }
+  ],
+  "legacy": [
+    {
+      "id": 1,
+      "title": "Front Brake Pads + Rotors",
+      "date": "2023-04-12",
+      "mileage": "45,500",
+      "notes": "Carfax record from previous owner"
+    },
+    {
+      "id": 2,
+      "title": "Spark Plugs",
+      "date": "2022-11-03",
+      "mileage": "38,000",
+      "notes": "Carfax record from previous owner"
+    }
+  ]
+}
