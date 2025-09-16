@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import ColorThief from 'colorthief';
 import styles from './Albums.module.css';
-import albums from '/public/albums.json'
+import albums from '/src/assets/albums.json'
 
 function isDark(rgbArray) {
   // Luminance formula
