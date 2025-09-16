@@ -2,10 +2,11 @@
   "current": [
     {
       "id": 1,
-      "title": "Oil Change",
-      "date": "2025-09-20",
-      "mileage": "62,000",
-      "notes": "Use 0W-30 BMW LL-01",
+      "title": "Drivetrain and Radiator Service",
+      "date": "10-17-2024",
+      "mileage": "72,837",
+      "service_center": "BMW of Rochester Hills",
+      "notes": "Radiator replaced, diff fluid flushed, transfer case fluid flushed, and coolant changed",
       "image": "./albumCovers/gnx.jpg"
     },
     {
@@ -13,23 +14,199 @@
       "title": "Brake Fluid Flush",
       "date": "2025-12-01",
       "mileage": "65,000",
+      "service_center": "West Herr BMW MINI Buffalo",
       "notes": "Recommended every 2 years"
     }
   ],
   "legacy": [
     {
       "id": 1,
-      "title": "Front Brake Pads + Rotors",
-      "date": "2023-04-12",
-      "mileage": "45,500",
-      "notes": "Carfax record from previous owner"
+      "title": "Vehicle Delivered and Inspected",
+      "date": "01-18-2017",
+      "mileage": "5",
+      "service_center": "West Herr BMW MINI Buffalo"
     },
     {
       "id": 2,
-      "title": "Spark Plugs",
-      "date": "2022-11-03",
-      "mileage": "38,000",
-      "notes": "Carfax record from previous owner"
+      "title": "Tire Service",
+      "date": "04-27-2017",
+      "mileage": "3,628",
+      "service_center": "West Herr BMW MINI Buffalo",
+      "notes": "Tires rotated"
+    },
+    {
+      "id": 3,
+      "title": "Tire Service",
+      "date": "05-18-2017",
+      "mileage": "4,958",
+      "service_center": "Towne Hyundai - Town Auto Choice",
+      "notes": "Tires rotated"
+    },
+    {
+      "id": 4,
+      "title": "Tire Service",
+      "date": "10-10-2017",
+      "mileage": "10,455",
+      "service_center": "West Herr BMW MINI Buffalo",
+      "notes": "Tires rotated"
+    },
+    {
+      "id": 5,
+      "title": "Oil Change",
+      "date": "10-31-2017",
+      "mileage": "n/a",
+      "service_center": "West Herr BMW MINI Buffalo",
+      "notes": "Oil change, engine checked, and general service"
+    },
+    {
+      "id": 6,
+      "title": "Emissions Check",
+      "date": "01-15-18",
+      "mileage": "n/a",
+      "service_center": "West Herr BMW MINI Buffalo",
+      "notes": "Emissions inspection performed"
+    },
+    {
+      "id": 7,
+      "title": "Vehicle Inspection",
+      "date": "01-16-2018",
+      "mileage": "n/a",
+      "service_center": "Service Center",
+      "notes": "Inspection on tire performed"
+    },
+    {
+      "id": 8,
+      "title": "Wheel Service",
+      "date": "05-09-2018",
+      "mileage": "16,288",
+      "service_center": "West Herr BMW MINI Buffalo",
+      "notes": "Four tires mounted and balanced"
+    },
+    {
+      "id": 9,
+      "title": "Vehicle Inspection",
+      "date": "10-26-2018",
+      "mileage": "21,996",
+      "service_center": "West Herr BMW MINI Buffalo",
+      "notes": "Oil change, brakes checked, cabin air filter, and wheel service"
+    },
+    {
+      "id": 10,
+      "title": "Tire Service",
+      "date": "11-27-2018",
+      "mileage": "23,000",
+      "service_center": "West Herr BMW MINI Buffalo",
+      "notes": "One tire mounted and balanced"
+    },
+    {
+      "id": 11,
+      "title": "Emissions Check",
+      "date": "03-20-2019",
+      "mileage": "26,019",
+      "service_center": "West Herr BMW MINI Buffalo",
+      "notes": "Emissions inspection performed"
+    },
+    {
+      "id": 12,
+      "title": "Full Maintenance Service",
+      "date": "11-12-2019",
+      "mileage": "31,725",
+      "service_center": "West Herr BMW MINI Buffalo",
+      "notes": "Oil change, brake fluid changed, tires rotated, wipers replaced, and key batteries swapped"
+    },
+    {
+      "id": 13,
+      "title": "Vehicle Sold",
+      "date": "02-24-2020",
+      "mileage": "35,579",
+      "service_center": "West Herr BMW MINI Buffalo"
+    },
+    {
+      "id": 14,
+      "title": "Vehicle Inspection",
+      "date": "08-14-2020",
+      "mileage": "39,028",
+      "service_center": "BMW of Darien",
+      "notes": "Vehicle fluids inspected"
+    },
+    {
+      "id": 15,
+      "title": "Drivetrain Service",
+      "date": "10-01-2020",
+      "mileage": "40,503",
+      "service_center": "BMW of Darien",
+      "notes": "Wheel bearing(s) serviced, fluids checked"
+    },
+    {
+      "id": 16,
+      "title": "Recommended Maintenance",
+      "date": "01-07-2021",
+      "mileage": "43,506",
+      "service_center": "BMW of Darien",
+      "notes": "Recommended maintenance performed, oil changed, and battery charged"
+    },
+    {
+      "id": 17,
+      "title": "Vehicle Inspection",
+      "date": "06-01-2021",
+      "mileage": "46,662",
+      "service_center": "BMW of Darien",
+      "notes": "Maintenance inspection completed"
+    }, 
+    {
+      "id": 18,
+      "title": "Vehicle Sold",
+      "date": "12-31-2021",
+      "mileage": "51,449",
+      "service_center": "Land Rover Darien",
+      "notes": "Vehicle for sale and oil changed"
+    },
+    {
+      "id": 19,
+      "title": "Vehicle Pre-sale Maintenance",
+      "date": "01-25-2022",
+      "mileage": "51,451",
+      "service_center": "Land Rover Darien",
+      "notes": "Tire replaced and vehicle serviced"
+    },
+    {
+      "id": 20,
+      "title": "Brake Service",
+      "date": "02-08-2022",
+      "mileage": "51,732",
+      "service_center": "Land Rover Darien",
+      "notes": "Full brake service"
+    },
+    {
+      "id": 21,
+      "title": "Alignment",
+      "date": "07-25-2022",
+      "mileage": "55,693",
+      "service_center": "Fishkill Tire & Auto Repair Inc.",
+      "notes": "Tire repaired and alignment performed"
+    },
+    {
+      "id": 22,
+      "title": "Emissions Check",
+      "date": "04-01-2024",
+      "mileage": "68,941",
+      "service_center": "Wits Auto Repair Inc",
+      "notes": "Emissions inspection performed"
+    },
+    {
+      "id": 23,
+      "title": "General Service",
+      "date": "05-21-2024",
+      "mileage": "70,371",
+      "service_center": "Wits Auto Repair Inc",
+      "notes": "Vehicle serviced"
+    },
+    {
+      "id": 24,
+      "title": "Vehicle Sold",
+      "date": "09-17-2024",
+      "mileage": "26,019",
+      "service_center": "BMW of Darien"
     }
   ]
 }

@@ -34,11 +34,12 @@ function AutoMaintenance() {
       {/* Legacy Maintenance */}
       <section>
         <h2>Previous Owners' Maintenance</h2>
-        {maintenance.legacy?.map((item) => (
+        {maintenance.legacy?.reverse().map((item) => (
           <div key={item.id} className={styles.card}>
             <h3>{item.title}</h3>
             <p><strong>Date:</strong> {item.date}</p>
             <p><strong>Mileage:</strong> {item.mileage}</p>
+            <p><strong>Service Center:</strong> {item.service_center}</p>
             <p>{item.notes}</p>
           </div>
         ))}
