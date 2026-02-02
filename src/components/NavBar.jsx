@@ -1,14 +1,32 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import styles from './NavBar.module.css';
 
 function NavBar() {
   return (
-    <nav className={styles.navbar}>
-      <Link to="/SnazzyWeb/" className={styles.link}>Home</Link>
-      <Link to="/SnazzyWeb/resume" className={styles.link}>Resume</Link>
-      <Link to="/SnazzyWeb/albums" className={styles.link}>Album Tracker 2025</Link>
-      <Link to="/SnazzyWeb/vehicle-maintenance" className={styles.link}>Vehicle Health Tracker</Link>
-    </nav>
+    <header className={styles.navWrapper}>
+      <nav className={styles.navbar}>
+        <div className={styles.brand}>
+          <NavLink to="/SnazzyWeb/" className={styles.brandLink}>
+            Noah
+          </NavLink>
+        </div>
+
+        <div className={styles.links}>
+          <NavLink to="/SnazzyWeb/" className={styles.link}>
+            Home
+          </NavLink>
+          <NavLink to="/SnazzyWeb/resume" className={styles.link}>
+            Resume
+          </NavLink>
+          <NavLink to="/SnazzyWeb/albums" className={styles.link}>
+            Albums
+          </NavLink>
+          <NavLink to="/SnazzyWeb/vehicle-maintenance" className={styles.link}>
+            Vehicle
+          </NavLink>
+        </div>
+      </nav>
+    </header>
   );
 }
 

@@ -6,10 +6,8 @@
 
 .backgroundWrapper {
      width: 100%;
-     margin-top: .7rem;
      padding: 4rem 0;
      transition: background-color 0.5s ease;
-     border-radius: 7px;
 }
    
 .page {

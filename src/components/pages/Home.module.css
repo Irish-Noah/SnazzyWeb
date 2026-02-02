@@ -1,0 +1,92 @@
+.home {
+  display: flex;
+  flex-direction: column; /* vertical stack */
+  width: 100%;
+}
+
+
+/* Hero section */
+.hero {
+  position: sticky; /* keeps image in place */
+  top: 0;
+  height:100vh;
+  width: 100%;
+  background-image: url("/public/images/home.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+/* Optional overlay for text readability */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 1;
+}
+
+/* Hero text container */
+.heroOverlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  max-width: 700px;
+  padding: 0 1.5rem;
+}
+
+.heroOverlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.heroOverlay p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.previews {
+  display: flex;
+  flex-direction: column;  /* stack previews vertically */
+  width: 100%;             /* full width */
+  align-items: center;     /* center previews horizontally */
+  gap: 4rem;               /* spacing between previews */
+  padding: 2rem 1rem;
+  position: relative;
+  z-index: 3; /* above hero */
+}
+
+/* Content section for previews */
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* stack previews vertically */
+  align-items: center;    /* center horizontally */
+  gap: 4rem;              /* spacing between previews */
+  padding: 2rem 1rem;
+  background: var(--pageBackground, #fff);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+
+  .heroOverlay h1 {
+    font-size: 2.2rem;
+  }
+
+  .heroOverlay p {
+    font-size: 1.05rem;
+  }
+
+  .content {
+    padding: 1rem;
+    gap: 3rem;
+  }
+}
